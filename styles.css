@@ -1,7 +1,5 @@
-/* 1. Variables & Reset */
-:root { --bg: #fbfaf8; --text: #1a1a1a; --border: #e5e2da; --max-w: 740px; --accent: rgba(0, 100, 255, 0.26); }
-@media (prefers-color-scheme: dark) { :root { --bg: #1a1a1a; --text: #fbfaf8; --border: #333333; } }
-
+/* 1. Dark Theme & Reset */
+:root { --bg: #1a1a1a; --text: #fbfaf8; --border: #333333; --max-w: 740px; --accent: rgba(0, 100, 255, 0.26); }
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
 /* 2. Core Typography & Selection */
