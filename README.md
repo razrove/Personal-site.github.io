@@ -9,7 +9,6 @@ This repository contains the source code for my personal website. It is a minima
 The website serves as a simple, elegant digital identity hub featuring:
 
 - **Minimalist Typographic UI:** Focused on clean presentation and sharp layout semantics.
-- **Adaptive Dark Mode Support:** Automatically toggles between light and dark themes using native system-level preferences.
 - **Interactive Expandable Bio:** A clean inline and block text reveal system to present an immersive reading experience.
 - **Dynamic Age Calculation:** Automatically calculates and updates chronological age based on real-time client tracking.
 - **Integrated Contact Hub:** An interactive email concealment slider featuring automated clipboard execution and temporary status toast feedback.
