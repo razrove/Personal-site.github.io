@@ -41,7 +41,7 @@ p { margin-bottom: 20px; }
 .icon-copy { --u: url('assets/copy.png'); }
 
 /* 7. Email Pill & Toast */
-.email-reveal { position: absolute; left: 48px; height: 36px; width: 230px; background: var(--bg); border: 1px solid var(--border); border-radius: 18px; display: flex; align-items: center; justify-content: center; gap: 8px; z-index: 10; opacity: 0; visibility: hidden; pointer-events: none; transform: translateX(-8px); transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+.email-reveal { position: absolute; left: 48px; height: 36px; width: 230px; background: var(--bg); border: 1px solid var(--border); border-radius: 18px; display: flex; align-items: center; justify-content: flex-start; padding-left: 14px; gap: 12px; z-index: 10; opacity: 0; visibility: hidden; pointer-events: none; transform: translateX(-8px); transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
 .email-reveal.is-active { opacity: 1; visibility: visible; pointer-events: auto; transform: scale(1) translateX(0); }
 .email-address { font-size: 15px; text-decoration: none; }
 .copy-icon-btn { width: 30px; height: 30px; padding: 0; position: relative; outline: none; }
