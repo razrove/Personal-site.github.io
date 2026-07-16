@@ -23,7 +23,7 @@ emailBtn?.addEventListener('click', e => (e.stopPropagation(), pill?.classList.t
 
 copyBtn?.addEventListener('click', e => {
   e.stopPropagation();
-  navigator.clipboard.writeText("contact@rajroy.in").then(() => {
+  navigator.clipboard.writeText("contact@razrove.com").then(() => {
     const toast = document.getElementById('copy-confirm');
     toast?.classList.add('show');
     setTimeout(() => toast?.classList.remove('show'), 2000);
